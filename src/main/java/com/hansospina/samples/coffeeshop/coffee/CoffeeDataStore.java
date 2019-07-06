@@ -17,6 +17,8 @@ class CoffeeDataStore {
   static {
     String tmpId = UUID.randomUUID().toString();
     dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.SOFT, CoffeeOrigin.ANTIOQUIA, "Café Antioqueño"));
+    tmpId = UUID.randomUUID().toString();
+    dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.STRONG, CoffeeOrigin.ANTIOQUIA, "Café Antioqueño"));
 
     tmpId = UUID.randomUUID().toString();
     dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.STRONG, CoffeeOrigin.MAGDALENA, "Café de la Sierra"));
