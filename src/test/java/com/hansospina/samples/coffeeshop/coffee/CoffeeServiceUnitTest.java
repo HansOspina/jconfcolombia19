@@ -23,7 +23,7 @@ public class CoffeeServiceUnitTest {
 
     @Test
     public void testList() {
-        assertEquals(3, service.list().size());
+        assertEquals(4, service.list().size());
     }
 
     @Test
