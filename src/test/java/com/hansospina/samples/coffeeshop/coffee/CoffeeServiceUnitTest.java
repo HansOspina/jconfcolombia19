@@ -37,7 +37,6 @@ public class CoffeeServiceUnitTest {
 
     @Test
     public void testGetCoffee() {
-
         Coffee first = service.list().get(0);
         assertNotNull(first);
         assertEquals(first.getId(), service.get(first.getId()).getId());
